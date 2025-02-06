@@ -1,0 +1,75 @@
+body {
+    background-color: #eef7ff;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    max-width: 750px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+    margin-top: 40px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .card {
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background: linear-gradient(135deg, #f8f9fa, #dbeafe);
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .list-group-item {
+    border: none;
+    background: #f8f9fa;
+    color: #495057;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .list-group-item:hover {
+    background: #dbeafe;
+  }
+  
+  .list-group-item strong {
+    color: #28a745;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    background-color: #28a745;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+  }
+  
+  .btn-secondary {
+    width: 100%;
+    background-color: #ff6b6b;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #d43f3f;
+  }
